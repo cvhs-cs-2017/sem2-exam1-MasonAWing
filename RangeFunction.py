@@ -6,7 +6,10 @@ for x in range(1, 41):
         x = x - 1
 
 """Repeat the exercise but count by 5's"""
-
+for x in range(1, 41):
+    while x > 0:
+        print(x)
+        x = x - 5
 
 
 """Write a program that will count print first 10 the multiples of (n) where n is
