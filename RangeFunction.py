@@ -14,3 +14,9 @@ for x in range(1, 41):
 
 """Write a program that will count print first 10 the multiples of (n) where n is
 taken from user input.  Include necessary print statements."""
+print('may i take your number')
+n = int(input())
+def multiples(n, count):
+    for x in range(0, count*n, n):
+        print(x)
+multiples(n, 10)
